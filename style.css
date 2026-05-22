@@ -1,0 +1,76 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Arial", sans-serif;
+  background: #f4f6fb;
+  padding: 30px;
+}
+
+#main-title {
+  text-align: center;
+  color: #1f3c88;
+  margin-bottom: 25px;
+  font-size: 28px;
+  letter-spacing: 1px;
+}
+
+.para {
+  text-align: center;
+  font-size: 16px;
+  color: #444;
+  margin-bottom: 8px;
+}
+
+.container {
+  margin-top: 30px;
+  text-align: center;
+}
+
+/* Common box style */
+.box {
+  background: white;
+  border: 1px solid #ddd;
+  padding: 15px;
+  margin: 10px;
+  display: inline-block;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+/* Block */
+.box1 {
+  display: block;
+  width: 200px;
+  margin: 10px auto;
+  background: #dfe7fd;
+}
+
+/* Inline */
+.box2 {
+  display: inline;
+  background: #ffd6a5;
+}
+
+/* Inline-block */
+.box3 {
+  display: inline-block;
+  background: #caffbf;
+  width: 180px;
+}
+
+/* None (hidden) */
+.box4 {
+  display: none;
+}
+
+/*extra design for box */
+.box:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 15px rgba(0,0,0,0.15);
+}
